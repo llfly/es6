@@ -63,41 +63,14 @@
 /******/ 	__webpack_require__.p = "";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ([
-/* 0 */,
-/* 1 */
-/***/ (function(module, exports, __webpack_require__) {
+/* 0 */
+/***/ (function(module, exports) {
 
-"use strict";
-/*
- import firstName1 from './modules';
- import {firstName2,lastName2} from './modules';
- import * as firstName3 from './modules';
-
- console.log(firstName1);//undefined
- console.log(firstName2,lastName2);//undefined undefined
- console.log(firstName3);//Object{firstName:'Michael,lastName:'Jackson'}
-*/
-
-/*
-import firstName1 from './modules';
-import {firstName2,lastName2} from './modules';
-import * as firstName3 from './modules';
-
-console.log(firstName1);//undefined
-console.log(firstName2,lastName2);//undefined undefined
-console.log(firstName3);//Object{firstName:'Michael,lastName:'Jackson'}
-*/
-
-//2. as
-//import * as a from './modules';
-
-
-//console.log(a);//a.default.b
-
+throw new Error("Module build failed: SyntaxError: Unexpected token, expected , (40:11)\n\n\u001b[0m \u001b[90m 38 | \u001b[39m\u001b[90m//4\u001b[39m\n \u001b[90m 39 | \u001b[39m\u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall(foo(\u001b[35m10\u001b[39m\u001b[33m,\u001b[39m\u001b[35m20\u001b[39m))\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 40 | \u001b[39m\u001b[33m.\u001b[39mthen([x\u001b[33m,\u001b[39my]\u001b[33m=>\u001b[39mconsole\u001b[33m.\u001b[39mlog(x\u001b[33m,\u001b[39my))\u001b[33m;\u001b[39m\n \u001b[90m    | \u001b[39m           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n");
 
 /***/ })
 /******/ ]);
